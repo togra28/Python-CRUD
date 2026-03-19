@@ -1,0 +1,15 @@
+### Create
+POST http://localhost:8000/items?name=Test&description=Hallo
+
+### Read all
+GET http://localhost:8000/items
+
+### Read one
+GET http://localhost:8000/items/1
+
+### Update
+PUT http://localhost:8000/items/1?name=Neu&description=Geändert
+
+### Delete
+DELETE http://localhost:8000/items/1
+
