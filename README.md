@@ -7,6 +7,8 @@ docker run --name mysql \
   -p 3306:3306 \
   -d mysql:8
 
+.. docker rm mysql ...
+
 docker exec -it mysql mysql -u root -ppass
 
 USE testdb;
