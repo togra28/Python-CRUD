@@ -19,6 +19,7 @@ CREATE TABLE items (
     description TEXT
 );
 
+
 mkdir app
 cd app
 pip install fastapi uvicorn mysql-connector-python
@@ -27,6 +28,12 @@ erstelle main.py
 
 uvicorn main:app --host 0.0.0.0 --port 8000
 
-https://didactic-tribble-4g47xpxvg69c556-8000.app.github.dev/docs
+Die interaktive FastAPI-Dokumentation öffnen:
+
+http://localhost:8000/docs
+
+Dort lassen sich alle implementierten Endpunkte (`GET`, `POST`, `PUT` und
+`DELETE`) über **Try it out** ausführen. In GitHub Codespaces kannst du stattdessen
+die weitergeleitete URL für Port 8000 mit `/docs` am Ende verwenden.
 
 
